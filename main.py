@@ -1,6 +1,6 @@
 import os
-from huffman.core import HuffmanCore
-from huffman.utils import get_byte_array, get_bit_string, calculate_compression_stats
+from algorithm.huffman import HuffmanCore
+from algorithm.utils import get_byte_array, get_bit_string, calculate_compression_stats
 from file_io.file_handler import FileHandler
 from file_io.cli import CLI
 
